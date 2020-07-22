@@ -1,5 +1,5 @@
 {
-  "appId": "io.ionic.starter",
+  "appId": "joel.ionic.filebrowser",
   "appName": "MyFileBrowser",
   "bundledWebRuntime": false,
   "npmClient": "npm",

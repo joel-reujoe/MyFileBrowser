@@ -5,14 +5,15 @@ import { FormsModule } from '@angular/forms';
 import { HomePage } from './home.page';
 
 import { HomePageRoutingModule } from './home-routing.module';
-
+import { FirebaseUIModule } from 'firebaseui-angular';
 
 @NgModule({
   imports: [
     CommonModule,
     FormsModule,
     IonicModule,
-    HomePageRoutingModule
+    FirebaseUIModule,
+    HomePageRoutingModule,
   ],
   declarations: [HomePage]
 })
